@@ -1,2 +1,2 @@
 build_script:
-  - "ntdll_crosstest.exe rtlbitmap"
+  - "msvcrt_crosstest.exe scanf"
