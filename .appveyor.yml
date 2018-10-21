@@ -1,4 +1,6 @@
 build_script:
   - ls -1t
+  - echo ok
+  - ls -1t | head -n 1
   - find . -type f
   - "msvcrt_crosstest.exe scanf"
